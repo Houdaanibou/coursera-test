@@ -1,0 +1,140 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:400,700";
+
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    text-align: center;
+}
+
+a{
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: .60;
+  padding: 10px;
+  }
+
+a:hover{
+    text-decoration: none;
+}
+
+h1{
+    height: 200px;
+    padding-top:100px;
+    font-weight: bold;
+
+}
+.section-title{
+    position: absolute;
+    top:0;
+    right:0;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding:0 20px 0 20px;
+  }
+  
+  section {
+      border:	1px solid black;
+      background-color: #e66465;
+      width: 100%;
+      height: 230px;
+      position: relative;
+  }
+
+  .container{
+      margin:0 auto;
+  }
+  
+  .items{
+    margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  p{
+    margin-top: 40px;
+    padding:5px;
+  }
+  
+  .title-1{
+    background-color: #9198e5;
+  }
+  
+  .title-2{
+    background-color:#008f13;
+  }
+  
+  .title-3{
+    background-color: #0d4f5f;
+  }
+ /*  visible-xs not working */
+  .nav-item{
+    color:  #F8F9FA;
+  }
+  
+  .nav-item:hover{
+    color:#F8F9FA;
+  }
+
+
+  @media (max-width: 768px) {
+    .collapse.in {        
+      display: block;       
+    }
+  
+    .nav-item{
+      padding-bottom: 15px;
+      color:  #e66465;
+    }
+  
+    .nav-item:hover{
+      padding-bottom: 15px;
+      color:  black;
+      background-color: #e66465;
+    }
+    
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+      .collapse.in {        
+        display: block;       
+      }
+    
+      .nav-item{
+        padding-bottom: 15px;
+        color:  #e66465;
+      }
+    
+      .nav-item:hover{
+        padding-bottom: 15px;
+        color:  black;
+        background-color: #e66465;
+      }
+    }
+    
+
+  @media (max-width: 768px) {
+  .collapse.in {        
+    display: block;       
+  }
+
+  .nav-item{
+    padding-bottom: 15px;
+    color:  #e66465;
+  }
+
+  .nav-item:hover{
+    padding-bottom: 15px;
+    color:  black;
+    background-color: #e66465;
+  }
+  
+  }
